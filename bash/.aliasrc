@@ -1,0 +1,18 @@
+# list
+alias l="lsd -l --blocks=permission,name"\
+      la="lsd -la --blocks=permission,name"\
+      ll="lsd -la"\
+      lt="lsd -l --blocks=permission,date,name"\
+      lta="lsd -la --blocks=permission,date,name"\
+      lw="lsd -l --blocks=permission,size,name"\
+      lwa="lsd -la --blocks=permission,size,name"
+
+# editor
+alias v="nvim"
+
+# fix obvious typo's
+alias cd..="cd .."\
+      pdw="pwd"
+
+# wireplumber
+alias gvol="wpctl get-volume @DEFAULT_AUDIO_SINK@"
